@@ -6,7 +6,7 @@ class Anagram
   end  
     
   def match(array)
-    array.select {|words| words.split("") == word.split("")}
+    array.select {|x| x.split("") == word.split("")}
   end
 
  end  
