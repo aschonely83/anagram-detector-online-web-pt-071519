@@ -5,8 +5,8 @@ class Anagram
     @word = word
   end  
     
-  def match(array_of_words)
-    array_of_words.select {|element| array_of_words.split("") == element.split("") }
+  def match(array)
+    
   end
 
  end  
